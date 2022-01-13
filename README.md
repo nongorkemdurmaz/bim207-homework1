@@ -14,16 +14,18 @@ Files as argument i.e. java -jar target\WordCounter.jar sample1.txt sample2.txt
 
 NumOfTokens
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens 
+java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens
+
 Number of Tokens: 761 
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens -u 
+java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens -u
+
 Number of Tokens: 309 
 
 
 FrequentTerms
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms 
+java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms
 
 the 39 
 a 28 
@@ -31,7 +33,7 @@ and 26
 to 24 
 is 14 
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10 
+java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
 
 
 the 39 
@@ -45,12 +47,12 @@ an 11
 by 11 
 are 9 
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10 
+java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
 -r 
+
 ad 1 
 adapter 1 
 administration 1 
-
 advantage 1 
 advent 1 
 allows 1 
@@ -62,14 +64,17 @@ away 1
 TermLengthStats
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermLengthStats 
+
 Max Token Length in Character: 16, Min Token Length: 1, Average Token Length: 5.2772 
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermLengthStats -u 
+
 Max Token Length in Character: 16, Min Token Length: 1, Average Token Length: 6.4757 
 
 TermsStartWith
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
+
 declarations 
 defines 
 defining 
@@ -78,6 +83,7 @@ design
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
 -r 
+
 devoted 
 devote 
 designing 
@@ -86,6 +92,7 @@ design
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
 -r -topN 10 
+
 devoted 
 devote 
 designing 
