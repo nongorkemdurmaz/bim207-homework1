@@ -9,11 +9,16 @@ About Usage
 `mvn clean package`
 
 Files as argument i.e. java -jar target\WordCounter.jar sample1.txt sample2.txt 
+
 -task : task name to run and should be one of following “NumOfTokens” “FrequentTerms” 
 “TermLengthStats” “TermsStartWith” 
+
 -r : refers to reverse order 
+
 -u: refers to unique values 
+
 -topN: Number of items to be printed 
+
 -start: Terms starts with given String.
 
 NumOfTokens
