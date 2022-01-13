@@ -4,6 +4,10 @@ These are the Java codes I wrote for homework 1 given in the Bim 207 class.
 
 About Usage
 
+
+`cd bim207-homework1`
+`mvn clean package`
+
 Files as argument i.e. java -jar target\WordCounter.jar sample1.txt sample2.txt 
 -task : task name to run and should be one of following “NumOfTokens” “FrequentTerms” 
 “TermLengthStats” “TermsStartWith” 
