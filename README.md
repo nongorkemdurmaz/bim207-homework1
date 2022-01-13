@@ -14,18 +14,18 @@ Files as argument i.e. java -jar target\WordCounter.jar sample1.txt sample2.txt
 
 NumOfTokens
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens`
 
 Number of Tokens: 761 
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens -u
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task NumOfTokens -u`
 
 Number of Tokens: 309 
 
 
 FrequentTerms
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms`
 
 
 the 39 <br>
@@ -35,7 +35,7 @@ to 24 <br>
 is 14 <br>
 
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10`
 
 
 the 39 <br>
@@ -49,8 +49,8 @@ an 11 <br>
 by 11 <br>
 are 9 <br>
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
--r 
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
+-r `
 
 ad 1 <br>
 adapter 1 <br>
@@ -65,17 +65,17 @@ away 1 <br>
 
 TermLengthStats
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermLengthStats 
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermLengthStats`
 
 Max Token Length in Character: 16, Min Token Length: 1, Average Token Length: 5.2772 
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermLengthStats -u 
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermLengthStats -u`
 
 Max Token Length in Character: 16, Min Token Length: 1, Average Token Length: 6.4757 
 
 TermsStartWith
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de` 
 
 declarations <br>
 defines <br>
@@ -83,8 +83,8 @@ defining <br>
 derive <br>
 design <br>
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
--r 
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
+-r`
 
 devoted <br>
 devote <br>
@@ -92,8 +92,8 @@ designing <br>
 designers <br>
 design <br>
 
-java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
--r -topN 10 
+`java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
+-r -topN 10` 
 
 devoted <br>
 devote <br>
