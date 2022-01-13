@@ -27,39 +27,41 @@ FrequentTerms
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms
 
-the 39 
-a 28 
-and 26 
-to 24 
-is 14 
+
+the 39 <br>
+a 28 <br>
+and 26 <br>
+to 24 <br>
+is 14 <br>
+
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
 
 
-the 39 
-a 28 
-and 26 
-to 24 
-is 14 
-of 13 
-this 12 
-an 11 
-by 11 
-are 9 
+the 39 <br>
+a 28 <br>
+and 26 <br>
+to 24 <br>
+is 14 <br>
+of 13 <br>
+this 12 <br>
+an 11 <br>
+by 11 <br>
+are 9 <br>
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task FrequentTerms -topN 10
 -r 
 
-ad 1 
-adapter 1 
-administration 1 
-advantage 1 
-advent 1 
-allows 1 
-animation 1 
-another 1 
-application 1 
-away 1 
+ad 1 <br>
+adapter 1 <br>
+administration 1 <br>
+advantage 1 <br>
+advent 1 <br>
+allows 1 <br>
+animation 1 <br>
+another 1 <br>
+application 1 <br>
+away 1 <br>
 
 TermLengthStats
 
@@ -75,30 +77,30 @@ TermsStartWith
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
 
-declarations 
-defines 
-defining 
-derive 
-design 
+declarations <br>
+defines <br>
+defining <br>
+derive <br>
+design <br>
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
 -r 
 
-devoted 
-devote 
-designing 
-designers 
-design 
+devoted <br>
+devote <br>
+designing <br>
+designers <br>
+design <br>
 
 java -jar target\WordCounter.jar sample1.txt sample2.txt sample3.txt -task TermsStartWith -start de 
 -r -topN 10 
 
-devoted 
-devote 
-designing 
-designers 
-design 
-derive 
-defining 
-defines 
-declarations 
+devoted <br>
+devote <br>
+designing <br>
+designers <br>
+design <br>
+derive <br>
+defining <br>
+defines <br>
+declarations <br>
